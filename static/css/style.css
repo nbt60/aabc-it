@@ -1,0 +1,17 @@
+.hero {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-link {
+	font-weight: 400 !important;
+	font-size: 18px;
+	border-radius: 10px;
+	transition: background-color .3s;
+}
+.nav-link:hover, .nav-link:focus, .nav-link.active {
+	color: var(--bs-primary) !important;
+	background-color: rgba(67, 170, 255, .2);
+}
